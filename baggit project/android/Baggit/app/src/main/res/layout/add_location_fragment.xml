@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/addlocation"
+        android:orientation="vertical"
+
+        android:background="@color/backgroundback"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+>
+
+
+    <TextView
+            android:id="@+id/addNameLocations"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="40dp"
+            android:hint="Name Location"
+            android:lines="1"
+            android:gravity="center"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/bgsearchlocation"/>
+
+    <EditText
+            android:id="@+id/addDeskLocation"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:hint="Desk Location"
+            android:gravity="center"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/bgsearchlocation"/>
+
+    <Button
+            android:id="@+id/btnAddLocations"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/add_location"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="20sp"
+              android:padding="5dp"
+              android:gravity="center"
+              android:layout_gravity="center"
+              android:textColor="@android:color/black"
+    android:text="Explore your Place"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_vertical"
+            >
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:orientation="vertical"
+                      android:layout_weight="1"
+                      android:id="@+id/locShopping"
+                      android:layout_height="wrap_content">
+
+            <ImageView android:layout_width="50dp"
+                       android:layout_height="50dp"
+                       android:layout_gravity="center"
+                       android:src="@drawable/buying"/>
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="10dp"
+                      android:textSize="10sp"
+                      android:gravity="center"
+                      android:textColor="@android:color/black"
+            android:text="@string/shopping"/>
+
+
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+                      android:orientation="vertical"
+                      android:layout_weight="1"
+                      android:id="@+id/locCoffe"
+                      android:layout_height="wrap_content">
+
+            <ImageView android:layout_width="45dp"
+                       android:layout_height="50dp"
+                       android:layout_gravity="center"
+                       android:src="@drawable/coffe"/>
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="10dp"
+                      android:textSize="10sp"
+                      android:gravity="center"
+                      android:textColor="@android:color/black"
+            android:text="@string/coffe"/>
+
+
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+                      android:orientation="vertical"
+                      android:layout_weight="1"
+                      android:id="@+id/locWisate"
+                      android:layout_height="wrap_content">
+
+            <ImageView android:layout_width="45dp"
+                       android:layout_height="50dp"
+                       android:layout_gravity="center"
+                       android:src="@drawable/camera"/>
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="10dp"
+                      android:textSize="10sp"
+                      android:gravity="center"
+                      android:textColor="@android:color/black"
+            android:text="Wisata"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:orientation="vertical"
+                      android:layout_weight="1"
+                      android:id="@+id/locOther"
+                      android:layout_height="wrap_content">
+
+            <ImageView android:layout_width="55dp"
+                       android:layout_height="55dp"
+                       android:layout_gravity="center"
+                       android:src="@drawable/ic_other"/>
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="10dp"
+                      android:textSize="10sp"
+                      android:gravity="center"
+                      android:textColor="@android:color/black"
+            android:text="Other"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_margin="10dp"
+              android:padding="5dp"
+              android:background="@color/backgroundback"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <ImageView android:layout_width="40dp"
+               android:layout_height="40dp"
+               android:src="@drawable/lokasi"/>
+
+    <TextView
+            android:id="@+id/textName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/password"
+            android:lines="1"
+            android:textColor="@android:color/white"
+            android:gravity="center_vertical"/>
+</LinearLayout>

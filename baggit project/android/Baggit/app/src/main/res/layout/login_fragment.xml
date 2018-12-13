@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/login"
+        android:background="@drawable/bgg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.login.loginActivity">
+
+    <ImageView android:layout_width="100dp"
+               android:layout_height="100dp"
+               android:src="@drawable/logo2"
+               android:layout_above="@+id/loginEmail"
+               android:layout_centerHorizontal="true"
+               android:contentDescription="@string/todo"/>
+
+    <EditText
+            android:id="@+id/loginEmail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="@string/email"
+            android:layout_marginTop="@dimen/top"
+            android:layout_marginRight="@dimen/left"
+            android:layout_marginLeft="@dimen/left"
+            android:padding="@dimen/padding"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:textColorHint="@color/backgroung"
+            android:background="@drawable/bgedittext"
+            android:autofillHints="@string/email"
+            android:inputType="textEmailSubject"/>
+
+    <EditText
+            android:id="@+id/loginPassword"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="@string/password"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="@dimen/left"
+            android:layout_marginLeft="@dimen/left"
+            android:padding="@dimen/padding"
+            android:gravity="center"
+            android:inputType="textPassword"
+            android:layout_below="@+id/loginEmail"
+            android:textColorHint="@color/backgroung"
+            android:background="@drawable/bgedittext"
+            android:autofillHints="@string/email"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/loginPassword"
+              android:textSize="17sp"
+              android:id="@+id/linkForgotPassword"
+              android:gravity="end"
+              android:layout_marginRight="30dp"
+              android:textColor="@android:color/white"
+              android:text="@string/forgot_password"/>
+
+    <Button
+            android:id="@+id/btnSignin"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginRight="@dimen/left"
+            android:layout_marginLeft="@dimen/left"
+            android:text="@string/sign_in"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/linkForgotPassword"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false"
+            android:background="@color/backgroundback"
+    />
+
+    <TextView
+            android:id="@+id/textSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+
+            android:textColor="@android:color/white"
+            android:textSize="17sp"
+            android:text="@string/have_your_account_sign_up"/>
+
+
+</RelativeLayout>
